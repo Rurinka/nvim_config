@@ -154,7 +154,7 @@ require('lazy').setup({
         },
     },
 
-    {
+    { -- 自動切換輸入法, only work on mac
         "keaising/im-select.nvim",
         config = function()
             require("im_select").setup({
